@@ -25,9 +25,9 @@ Go-Nexus is a powerful CLI tool for managing **Nexus Repository Manager**, enabl
 chmod +x nexus-cli
 ```
 
-### 3️⃣ Configure (Optional)
+### 3️⃣ Configure (Optional, save creds in file)
 ```sh
-./nexus-cli gencfg
+./nexus-cli gencfg -u http:// -U admin -P P@ssw0rd
 ```
 
 ### 4️⃣ Run Commands

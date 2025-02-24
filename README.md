@@ -16,30 +16,30 @@ Go-Nexus is a powerful CLI tool for managing **Nexus Repository Manager**, enabl
 ## 🛠 Installation & Usage
 
 ### 1️⃣ Download the Binary
-- 🐧 **Linux**: `go-nexus-linux-amd64`
-- 🍏 **macOS (Universal)**: `go-nexus-darwin-universal` (x86_64 + ARM)
-- 🏁 **Windows**: `go-nexus-windows-amd64.exe`
+- 🐧 **Linux**: `nexus-cli-linux-amd64`
+- 🍏 **macOS (Universal)**: `nexus-cli-darwin-universal` (x86_64 + ARM)
+- 🏁 **Windows**: `nexus-cli-windows-amd64.exe`
 
 ### 2️⃣ Make the Binary Executable (Linux/macOS)
 ```sh
-chmod +x go-nexus-linux-amd64
+chmod +x nexus-cli
 ```
 
 ### 3️⃣ Configure (Optional)
 ```sh
-./go-nexus-linux-amd64 gencfg
+./nexus-cli gencfg
 ```
 
 ### 4️⃣ Run Commands
 ```sh
-./go-nexus-linux-amd64 repo ls  # List all repositories
-./go-nexus-linux-amd64 upfile my-repo ./file.txt /target/path
+./nexus-cli repo ls  # List all repositories
+./nexus-cli upfile my-repo ./file.txt /target/path
 ```
 
 ## 📚 Documentation
 For a full list of commands, run:
 ```sh
-./go-nexus-linux-amd64 --help
+./nexus-cli --help
 ```
 
 ## 📜 Configuration (`conf.yaml`)

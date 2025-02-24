@@ -1,6 +1,6 @@
-# 📦 Go-Nexus CLI
+# 📦 Nexus-CLI
 
-**Version:** vX.Y.Z  
+**Version:** v1.0.0  
 **Release Date:** _<date>_
 
 ## 🚀 Overview
